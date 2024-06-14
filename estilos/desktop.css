@@ -1,0 +1,93 @@
+:root{
+    --Prymary-font:"Ubuntu", sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: var(--Prymary-font) ;
+}
+
+header .menu-options-container {
+    display:flex;
+}
+
+
+header .menu-options-container ul {
+    list-style: none;
+    text-align: center;
+}
+
+
+header .menu-options-container ul li{
+    display: inline-block;
+    align-items: center;
+    margin: 0 1rem;
+}
+
+
+header .menu-options-container ul li a{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--off-white);
+}
+
+
+header .menu-options-container ul li a:hover{
+    color: var(--shadow-gray);
+}
+
+header .menu-bar{
+    display: none;
+}
+
+/* MAIN */
+
+main{
+    height: 80vh;
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    height: 8vh;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: transparent;
+    padding: 2rem 4rem;
+}
+
+footer .footer-data{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    color: var(--off-white);
+}
+
+footer .footer-data ul li a{
+    font-size: 1rem;
+}
+
+footer .footer-social-media{
+    display: flex;
+    flex-direction: row;
+}
+
+footer .footer-social-media h2{
+    display: none;
+}
+
+footer .footer-social-media ul{
+    margin: 0;
+}
+
+.fa-square-facebook, .fa-instagram, .fa-pinterest, .fa-square-twitter, .fa-linkedin{
+    font-size: 1.6rem;
+}

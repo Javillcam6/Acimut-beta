@@ -1,0 +1,57 @@
+
+
+html{
+    font-size: 62.5%;
+    font-family: var(--Prymary-font) ;
+}
+
+/* HEAD */
+
+
+header{
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+header .header-logo{
+    width: 14rem;
+}
+header .menu-bar .fa-bars{
+    font-size: 4rem;
+}
+
+/* MAIN */
+
+.main-container-info h1{
+    width: 60rem;
+    font-size: 10rem;
+    line-height: 8.5rem;
+}
+
+.main-container a{
+    font-size: 3rem;
+}
+
+.main-container--right-arrow, .main-container--left-arrow {
+    bottom: 14rem;
+}
+
+.main-container--right-arrow {
+    left: 24rem; 
+}
+
+.main-container--left-arrow {
+    right: 24rem; 
+}
+
+.right-arrow-icon, .left-arrow-icon  {
+    width: 8.5rem; 
+}
+
+/* FOOTER */
+
+footer{
+    display: none;
+}
+
+
